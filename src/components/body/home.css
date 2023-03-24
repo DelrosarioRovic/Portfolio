@@ -1,0 +1,35 @@
+.text-animate {
+    display: inline-block;
+    opacity: 1;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    animation: bounce 0.5s;
+    transition: .4s;
+}
+.text-animate-bounce {
+    display: inline-block;
+    min-width: 10px;
+    animation-fill-mode: both;
+    opacity: 1;
+    transition: .4s;
+}
+.text-animate-bounce:hover {
+    animation: bounce 0.5s;
+    color: #3b82f6;
+  }
+.btn-home:hover {
+  animation:bounce 0.5s;
+  background-color:#3b82f6;
+}
+  
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
