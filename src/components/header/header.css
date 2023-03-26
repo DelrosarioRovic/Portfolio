@@ -1,0 +1,9 @@
+.logo {
+    display: inline-block;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-delay: .2s;
+}

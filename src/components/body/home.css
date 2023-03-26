@@ -1,46 +1,32 @@
 .text-animate {
     display: inline-block;
-    opacity: 1;
-    animation-fill-mode: forwards;
+    opacity: 0;
     min-width: 10px;
-    animation: bounce 0.5s;
-    transition: .4s;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
 }
 .text-animate-bounce {
     display: inline-block;
     min-width: 10px;
     animation-fill-mode: both;
-    opacity: 1;
-    transition: .4s;
 }
 .text-animate-bounce:hover {
-    animation: bounce 0.5s;
+    animation: rubberBand 1s;
     color: #3b82f6;
   }
+
+  .btn-home {
+    transition: .2s;
+  }
 .btn-home:hover {
-  animation:bounce 0.5s;
   color:#1f2c38;
   background-color:#3b82f6;
 }
-/* .progLang {
- transition: .1s;
+.btn-home:active {
+  transform: scale(0.8);
 }
-.progLang:hover {
-  
-} */
 
-  
-@keyframes bounce {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
+
 
 
 

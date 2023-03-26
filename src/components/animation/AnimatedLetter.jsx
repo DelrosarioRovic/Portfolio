@@ -4,7 +4,7 @@ const AnimatedLetters = ({ letterClass, strArray, idx, onMouseEnter, onMouseLeav
   return (
     <span>
       {strArray.map((char, i) => {
-          const delay = isHovering ? 0.1 : (i + idx) * 0.1; 
+          const delay = isHovering ? 0 : (i + idx) * 0.1; 
         const style = {
           animationDelay: `${delay}s` // set animation delay for current letter
         };
