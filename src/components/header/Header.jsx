@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import FlashingSymbol from "../animation/FlashingSymbol";
 import NavItem from "../animation/NavItem";
-import Hamburger from "../animation/Hamburger";
+import Navigation from "./Navigation"
 function Header() {
   return (
     <nav className="flex justify-between px-8 py-4 text-white items-center max-w-7xl mx-auto">
@@ -13,8 +13,7 @@ function Header() {
           <FlashingSymbol letter=">" />
         </a>
       </h1>
-      {/* it has navigation inside with a full function responsive Hamburger on it */}
-        <Hamburger />
+        <Navigation />
     </nav>
   );
 }

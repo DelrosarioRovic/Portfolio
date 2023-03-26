@@ -19,8 +19,16 @@
   }
 .btn-home:hover {
   animation:bounce 0.5s;
+  color:#1f2c38;
   background-color:#3b82f6;
 }
+/* .progLang {
+ transition: .1s;
+}
+.progLang:hover {
+  
+} */
+
   
 @keyframes bounce {
     0% {
@@ -33,3 +41,9 @@
       transform: translateY(0);
     }
   }
+
+
+
+ 
+  
+  

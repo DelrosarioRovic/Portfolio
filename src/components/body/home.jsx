@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AnimatedLetters from "../animation/AnimatedLetter";
 import "./home.css"
-import ProfilePictureUpDown from "../animation/ProfilePictureUpDown";
+import ProfilePictureUpDown from "./ProfilePictureUpDown";
 function Home() {
   const [letterClass, setletterClass] = useState("text-animate");
   const [isHovering, setIsHovering] = useState(false);
