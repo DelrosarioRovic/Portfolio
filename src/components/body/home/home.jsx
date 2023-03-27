@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AnimatedLetters from "../animation/AnimatedLetter";
+import AnimatedLetters from "../../animation/AnimatedLetter";
 import "./home.css"
 import 'animate.css';
 import ProfilePictureUpDown from "./ProfilePictureUpDown";
@@ -36,9 +36,9 @@ function Home() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto flex justify-around gap-3 items-center my-5 py-20 max-md:gap-0 max-md:flex-wrap">
+    <div className="max-w-7xl h-full mx-auto flex justify-around gap-3 items-center my-5 py-20 max-md:gap-0 max-md:flex-wrap">
       <div className="p-6 flex flex-col items-start">
-        <h1 className="font-extrabold text-5xl max-lg:text-4xl max-sm:text-5xl mb-3 leading-snug text-white opacity-90">
+        <h1 className="font-extrabold text-5xl max-lg:text-4xl max-sm:text-4xl mb-3 leading-snug text-white opacity-90">
           <AnimatedLetters
             letterClass={letterClass}
             strArray={HiArray}

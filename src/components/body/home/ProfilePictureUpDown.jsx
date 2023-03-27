@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import FloatingAnimation from "../animation/FloatingAnimation";
-import logoProgLang from "../arrays/logoProgLang";
+import FloatingAnimation from "../../animation/FloatingAnimation";
+import logoProgLang from "../../arrays/logoProgLang";
 import "./home.css"
 function ProfilePictureUpDown() {
   return (
@@ -13,12 +13,14 @@ function ProfilePictureUpDown() {
         whileExit={false}
         delay={.5}
         children={
-          <div className="rounded-full bg-blue-600 bg-opacity-70 overflow-hidden w-72">
+          <div className="rounded-full bg-opacity-70 w-72 h-72">
             <img
               className="brightness-110 contrast-125 object-cover object-center w-full h-full"
-              src="https://media.discordapp.net/attachments/1045233952148947046/1084737602701250590/IMG_20230313_151939.png?width=436&height=413"
+              src="https://cdni.iconscout.com/illustration/premium/thumb/coder-3462295-2895977.png"
               alt="Rovic"
             />
+            <p className="htmlTags absolute top-0 right-3/4 opacity-70">{"<R>"}</p>
+            <p className="htmlTags absolute bottom-0 left-3/4 opacity-70">{"<R/>"}</p>
           </div>
         }
       />

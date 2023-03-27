@@ -7,6 +7,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+#root {
+    overflow: hidden;
+}
 
 
 

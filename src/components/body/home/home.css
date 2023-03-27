@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
 .text-animate {
     display: inline-block;
     opacity: 0;
@@ -24,6 +26,10 @@
 }
 .btn-home:active {
   transform: scale(0.8);
+}
+.htmlTags {
+  font-family: 'La Belle Aurore', cursive;
+  color: #3b82f6;
 }
 
 
