@@ -1,7 +1,7 @@
 import React,{ useState } from "react";
 import { motion } from "framer-motion";
 
-const NavItem = ({ letter }) => {
+const NavItem = ({ letter, href }) => {
   const [hovered, setHovered] = useState(false);
 
   const handleHover = () => setHovered(!hovered);
@@ -14,7 +14,7 @@ const NavItem = ({ letter }) => {
   return (
     <li className="relative p-0">
       <a
-        href="#"
+        href={href}
         className="opacity-90 hover:text-blue-500 font-medium uppercase tracking-wide text-sm"
         onMouseEnter={handleHover}
         onMouseLeave={handleHover}

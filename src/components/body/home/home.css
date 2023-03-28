@@ -17,6 +17,25 @@
     color: #3b82f6;
   }
 
+
+.profilePTag::before {
+  content: "<R>";
+  position: absolute;
+  top: 2.5rem;
+  left: 5rem;
+  font-family: 'La Belle Aurore', cursive;
+  color: #3b82f6;
+}
+.profilePTag::after{
+  content: "<R/>";
+  position: absolute;
+  bottom: 2.5rem;
+  left: 5rem;
+  font-family: 'La Belle Aurore', cursive;
+  color: #3b82f6;
+}
+
+
   .btn-home {
     transition: .2s;
   }
@@ -27,15 +46,23 @@
 .btn-home:active {
   transform: scale(0.8);
 }
-.htmlTags {
+
+
+/* element skeleton */
+/* <body> */
+#home::before {
+  content: "<body>";
+  position: absolute;
+  top: 3rem;
+  opacity: .7;
+  left: 3rem;
   font-family: 'La Belle Aurore', cursive;
   color: #3b82f6;
 }
 
 
 
-
-
  
+
   
   

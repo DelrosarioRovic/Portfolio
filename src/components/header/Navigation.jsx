@@ -17,11 +17,11 @@ function Navigation() {
           isOpen ? "right-0" : "-right-full"
         }`}
       >
-        <NavItem letter="Home" />
-        <NavItem letter="About" />
-        <NavItem letter="Skills" />
-        <NavItem letter="Projects" />
-        <NavItem letter="Contact" />
+        <NavItem href="#" letter="Home" />
+        <NavItem href="#about" letter="About" />
+        <NavItem href="#skills" letter="Skills" />
+        <NavItem href="#project" letter="Projects" />
+        <NavItem href="#contact" letter="Contact" />
       </ul>
     </div>
   );
