@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import AnimatedLetters from "../../animation/AnimatedLetter";
+import React from "react";
+import { useAnimatedLetters, AnimatedLetters } from "../../animation/AnimatedLetter";
+import ProfilePictureUpDown from "./ProfilePictureUpDown";
 import "./home.css";
 import "../body.css";
 import "animate.css";
-import ProfilePictureUpDown from "./ProfilePictureUpDown";
+
 function Home() {
-  const [letterClass, setletterClass] = useState("text-animate");
-  const [isHovering, setIsHovering] = useState(false);
+  const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } = useAnimatedLetters();
   const nameArray = [" ", "R", "o", "v", "i", "c"];
   const HiArray = ["H", "i", ","];
   const IM = ["I", "'", "m"];
@@ -25,17 +25,7 @@ function Home() {
     "e",
     "r",
   ];
-
-  function handleMouseEnter() {
-    setIsHovering(true);
-    setletterClass("text-animate-bounce");
-  }
-
-  function handleMouseLeave() {
-    setIsHovering(false);
-    setletterClass("text-animate-bounce");
-  }
-
+  
   return (
     <div id="home" className="relative mt-[14vh]">
       <div className="max-w-7xl h-full mx-auto flex justify-between max-md:justify-center gap-3 items-center my-5 py-20 px-8 max-md:gap-8 max-md:flex-wrap relative">

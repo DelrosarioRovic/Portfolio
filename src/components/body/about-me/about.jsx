@@ -1,16 +1,31 @@
 import React, { useState } from "react";
+import {
+  useAnimatedLetters,
+  AnimatedLetters,
+} from "../../animation/AnimatedLetter";
 import "./about.css";
 import "../body.css";
 function AboutMe() {
+  const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } =
+    useAnimatedLetters();
+  const aboutUs = ["A", "b", "o", "u", "t", " ", "U", "s"];
+
   return (
     <div id="about" className="max-w-7xl h-full mx-auto py-20 px-8 relative">
       <div data-aos="fade-right" className="h1-html mb-10">
         <h1 className="font-semibold text-4xl text-white opacity-90 relative inline-block">
-          About Me
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={aboutUs}
+            idx={5}
+            isHovering={isHovering}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          />
           <div data-aos="fade-right" className="h-0.5 bg-blue-500"></div>
-        </h1>        
+        </h1>
       </div>
- 
+
       <div className="flex flex-col gap-3 md:flex-row justify-between items-center max-sm:px-1">
         <div className="flex flex-col gap-5 p-5 text-white opacity-90 md:w-4/6">
           <div data-aos="fade-left">
