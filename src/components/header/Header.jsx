@@ -7,7 +7,7 @@ import 'animate.css';
 import "./header.css";
 function Header() {
   return (
-    <nav className="flex justify-between px-8 py-4 text-white items-center max-w-7xl mx-auto fixed top-0 bg-slate-800 w-full z-50">
+    <nav className="flex justify-between px-8 py-4 text-white items-center max-w-7xl mx-auto fixed top-0 left-2/4 -translate-x-2/4 bg-slate-800 w-full z-50">
       <h1 className="font-extralight text-3xl">
         <a href="#">
           <FlashingSymbol letter="<" />

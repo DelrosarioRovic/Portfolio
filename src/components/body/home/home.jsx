@@ -27,10 +27,9 @@ function Home() {
   ];
   
   return (
-    <div id="home" className="relative mt-[14vh]">
-      <div className="max-w-7xl h-full mx-auto flex justify-between max-md:justify-center gap-3 items-center my-5 py-20 px-8 max-md:gap-8 max-md:flex-wrap relative">
+    <div id="home" className="relative mt-[14vh] max-w-7xl h-full mx-auto flex justify-between max-md:justify-center gap-3 items-center my-5 py-20 px-8 max-md:gap-8 max-md:flex-wrap">
         <div className="p-6 flex flex-col items-start">
-          <h1 className="h1-html font-extrabold text-5xl max-lg:text-4xl max-sm:text-4xl mb-10 leading-snug text-white opacity-90 relative">
+          <h1 className="font-extrabold text-5xl max-lg:text-4xl max-sm:text-4xl mb-10 leading-snug text-white opacity-90 relative">
             <AnimatedLetters
               letterClass={letterClass}
               strArray={HiArray}
@@ -66,7 +65,7 @@ function Home() {
               onMouseLeave={handleMouseLeave}
             />
           </h1>
-          <h2 className="p-html relative text-blue-500 font-semibold text-xl mb-7">
+          <h2 className="relative text-blue-500 font-semibold text-xl mb-7">
             I Like React/Javascript
           </h2>
           <a
@@ -78,7 +77,6 @@ function Home() {
         </div>
         <ProfilePictureUpDown />
       </div>
-    </div>
   );
 }
 

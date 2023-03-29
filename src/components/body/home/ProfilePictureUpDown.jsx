@@ -12,7 +12,7 @@ function ProfilePictureUpDown() {
         yValues={[0, -5, 0, 5, 0]}
         delay={0.5}
         children={
-          <div className="profilePTag rounded-full bg-opacity-70 w-72 h-72">
+          <div className="profilePTag rounded-full bg-opacity-70 w-72 h-72 hover:shadow-md hover:shadow-[#06092e41] duration-500">
             <img
               className="brightness-110 contrast-125 object-cover object-center w-full h-full"
               src="https://cdni.iconscout.com/illustration/premium/thumb/coder-3462295-2895977.png"

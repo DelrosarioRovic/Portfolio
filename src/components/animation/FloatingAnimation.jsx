@@ -51,11 +51,11 @@ const FloatingAnimation = ({
   const tap = { scale: 0.8 };
 
   const ifClick = () => {
-    const arrMessage = [{text:"I Like", emoji:"❤️"}, {text:"I'm Good at", emoji:"🦄"}, {text:"I also do", emoji:"👍🏼"}];
+    const arrMessage = [{text:"I like ", emoji:"❤️"}, {text:"I'm Good at", emoji:"🦄"}, {text:"I enjoy working with", emoji:"👍🏼"}];
     const message = (
       <div className="flex flex-row gap-1">
         <p>{arrMessage[id].text}</p>
-        <h3>{lang} {arrMessage[id].emoji}</h3>
+        <h3 className="font-semibold underline text-slate-900">{lang} {arrMessage[id].emoji}</h3>
       </div>
     );
 

@@ -9,6 +9,7 @@ body {
 }
 #root {
     overflow: hidden;
+    position:relative;
 }
 html {
     scroll-behavior: smooth;
@@ -16,13 +17,21 @@ html {
 .html-Tags::before {
     content: "<html>";
     position: absolute;
-    top: 6rem;
+    top: 0;
     left: 2rem;
     opacity: .7;
     font-family: 'La Belle Aurore', cursive;
     color: #3b82f6;
 }
-
+.html-Tags::after {
+    content: "<html/>";
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    opacity: .7;
+    font-family: 'La Belle Aurore', cursive;
+    color: #3b82f6;
+}
 
 
 
