@@ -1,5 +1,6 @@
 import React from "react";
 import { useAnimatedLetters, AnimatedLetters } from "../../animation/AnimatedLetter";
+import TypeAnimation from "../../animation/TypeAnimation";
 import ProfilePictureUpDown from "./ProfilePictureUpDown";
 import "./home.css";
 import "../body.css";
@@ -65,14 +66,12 @@ function Home() {
               onMouseLeave={handleMouseLeave}
             />
           </h1>
-          <h2 className="relative text-blue-500 font-semibold text-xl mb-7">
-            I Like React/Javascript
-          </h2>
+          <TypeAnimation />
           <a
             href=""
             className="btn-home border border-blue-500 px-4 py-2 rounded-md text-white opacity-90"
           >
-            CONTACT ME
+            Resume
           </a>
         </div>
         <ProfilePictureUpDown />

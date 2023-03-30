@@ -26,8 +26,8 @@ function AboutMe() {
         </h1>
       </div>
 
-      <div className="flex flex-col gap-3 md:flex-row justify-between items-center max-sm:px-1">
-        <div className="flex flex-col gap-5 p-5 text-white opacity-90 md:w-4/6">
+      <div className="flex flex-col gap-3 md:flex-row justify-between items-center">
+        <div className="flex flex-col gap-5 text-white opacity-90 md:w-4/6">
           <div data-aos="fade-left">
             <p className="relative">
               Hi, I'm [Your Name], a [Your Profession] with a passion for [Your
