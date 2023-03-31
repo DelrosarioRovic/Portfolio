@@ -30,12 +30,12 @@ function ProfilePictureUpDown() {
           lastClickedId={lastClickedId}
           setLastClickedId={setLastClickedId}
           yValues={item.yValues}
-          whileHover={true}
-          whileTap={true}
           isClick={true}
           delay={item.delay}
           wrapperClassName={item.wrapperClassName}
-          children={<img src={item.src} alt={item.alt} />}
+          children={<span className={item.childCLassName}>
+          <img className="w-full h-full" src={item.src} alt="" />
+        </span>}
         />
       ))}
     </div>

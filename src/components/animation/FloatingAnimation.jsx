@@ -9,8 +9,6 @@ const FloatingAnimation = ({
   yValues,
   wrapperClassName,
   children,
-  whileHover,
-  whileTap,
   isClick,
   delay,
   lastClickedId,
@@ -43,13 +41,6 @@ const FloatingAnimation = ({
     },
   };
 
-  const hover = {
-    scale: 1.3,
-    transition: { duration: 0.3 },
-  };
-
-  const tap = { scale: 0.8 };
-
   const ifClick = () => {
     const arrMessage = [{text:"I like ", emoji:"❤️"}, {text:"I'm Good at", emoji:"🦄"}, {text:"I enjoy working with", emoji:"👍🏼"}];
     const message = (
@@ -58,7 +49,7 @@ const FloatingAnimation = ({
         <h3 className="font-semibold underline text-slate-900">{lang} {arrMessage[id].emoji}</h3>
       </div>
     );
-
+    toast.dismiss();
     toast.success(message, {
       html: true,
       position: "bottom-right",
@@ -76,8 +67,6 @@ const FloatingAnimation = ({
       <motion.div
         className={wrapperClassName}
         animate={isReloaded ? fade : upAndDown}
-        whileHover={whileHover ? hover : {}}
-        whileTap={whileTap ? tap : {}}
         onClick={onClick}
       >
         {children}

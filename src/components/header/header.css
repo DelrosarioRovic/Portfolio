@@ -7,3 +7,9 @@
     animation-duration: 1s;
     animation-delay: .2s;
 }
+
+.active-on-scroll::after {
+    background-color: #3b82f6 !important;
+    width: 100% !important;
+  }
+  

@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import Hamburger from "../animation/Hamburger";
 import NavItem from "../animation/NavItem";
+import "./header.css";
 
 function Navigation() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [isActiveItem, setIsActiveItem] = useState("HOME");
   const toggleMenu = () => setIsNavOpen((prevState) => !prevState);
 
-  const clickNavItem = (label) => {
-    setIsActiveItem(label);
+  const clickNavItem = () => {
     setIsNavOpen(false);
   }
 
   const navItems = [
-    { href: "#", label: "HOME"},
-    { href: "#about", label: "ABOUT" },
-    { href: "#skills", label: "SKILLS" },
-    { href: "#project", label: "PROJECTS" },
-    { href: "#contact", label: "CONTACT" },
+    { href: "home", label: "HOME"},
+    { href: "about", label: "ABOUT" },
+    { href: "skills", label: "SKILLS" },
+    { href: "projects", label: "PROJECTS" },
+    { href: "contact", label: "CONTACT" },
   ];
+  
 
   return (
     <div className="relative items-center flex">
@@ -32,8 +32,9 @@ function Navigation() {
           <NavItem
             key={item.label}
             href={item.href}
+            activeScroll="active-on-scroll"
             label={item.label}
-            isActive={isActiveItem === item.label} onClick={() => clickNavItem(item.label)}
+            onClick={clickNavItem}
           />
         ))}
       </ul>

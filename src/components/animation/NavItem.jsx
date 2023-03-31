@@ -1,34 +1,25 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
-const NavItem = ({ label, href, onClick, isActive }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleHover = () => setIsHovered((prevState) => !prevState);
-
-  const variants = {
-    start: { scaleX: 0, originX: "50%" },
-    end: { scaleX: 1, originX: "50%" },
-  };
-
+const NavItem = ({ label, href, onClick, activeScroll }) => {
+  
   return (
-    <li className="relative p-0">
-      <a
-        href={href}
-        className="bg-opacity-90 hover:text-blue-500 font-medium uppercase tracking-wide text-sm"
-        onMouseEnter={handleHover}
-        onMouseLeave={handleHover}
+    <li className="p-0">
+      <Link
+        to={href}
+        activeClass={activeScroll}
+        className='file:bg-opacity-90 hover:text-blue-500 font-medium uppercase tracking-wide text-sm relative
+        after:absolute after:h-[2px]
+        after:w-0 after:bottom-0
+        after:duration-500 after:right-0
+        hover:after:bg-blue-500
+        hover:after:w-full hover:after:left-0'
         onClick={onClick}
+        spy={true}
+        offset={-100}
       >
-        <span className="relative z-1">{label}</span>
-        <motion.div
-          className="w-full h-0.5 bg-blue-500 absolute bottom-0 left-0"
-          initial="start"
-          animate={isHovered || isActive ? "end" : "start"}
-          variants={variants}
-          transition={{ duration: 0.3 }}
-        />
-      </a>
+        {label}
+      </Link>
     </li>
   );
 };
