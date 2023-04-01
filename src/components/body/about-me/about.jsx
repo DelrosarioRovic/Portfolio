@@ -8,12 +8,12 @@ import "../body.css";
 function AboutMe() {
   const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } =
     useAnimatedLetters();
-  const aboutUs = ["A", "b", "o", "u", "t", " ", "U", "s"];
+  const aboutUs = ["A", "b", "o", "u", "t"];
 
   return (
     <div id="about" className="max-w-7xl h-full mx-auto py-20 px-8 relative">
       <div data-aos="fade-right" className="mb-10">
-        <h1 className="font-semibold text-4xl text-white opacity-90 relative inline-block">
+        <h1 className="font-semibold text-3xl text-white opacity-90 relative inline-block">
           <AnimatedLetters
             letterClass={letterClass}
             strArray={aboutUs}

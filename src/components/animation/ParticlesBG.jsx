@@ -41,7 +41,7 @@ const ParticlesAnimation = () => {
               },
               repulse: {
                 distance: 200,
-                duration: 0.4,
+                duration: 1,
               },
             },
           },
@@ -53,7 +53,7 @@ const ParticlesAnimation = () => {
               color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.3,
+              opacity: 0.5,
               width: 1,
             },
             collisions: {
@@ -77,7 +77,7 @@ const ParticlesAnimation = () => {
               value: 10,
             },
             opacity: {
-              value: 0.3,
+              value: 0.5,
             },
             shape: {
               type: "circle",

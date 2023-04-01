@@ -4,6 +4,7 @@ import Home from "./body/home/home";
 import AboutMe from "./body/about-me/about";
 import Skills from "./body/skills/skills";
 import Projects from "./body/projects/projects";
+import Contact from  "./body/contact/contact"
 import ParticlesAnimation from "./animation/ParticlesBG";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
