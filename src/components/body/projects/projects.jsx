@@ -27,12 +27,13 @@ function Projects() {
           <div data-aos="fade-right" className="h-0.5 bg-blue-500"></div>
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-5 gap-y-5 py-8 text-white text-opacity-90">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5 py-8 text-white text-opacity-90">
         {projectArray.map((project, index) => {
           return (
             <ProjectAnimate
               key={index}
               id={index}
+              projectColor={project.projectColor}
               projectUrl={project.projectUrl}
               projectImg={project.projectImg}
               projectTitle={project.projectTitle}

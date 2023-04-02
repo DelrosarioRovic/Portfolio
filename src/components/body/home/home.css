@@ -35,30 +35,9 @@
   color: #3b82f6;
 }
 
-
-  .btn-home {
-    transition: .2s;
-  }
-.btn-home:hover {
-  color:#1f2c38;
-  background-color:#3b82f6;
-}
-.btn-home:active {
-  transform: scale(0.8);
-}
-
-
 /* element skeleton */
 /* <body> */
-#home::before {
-  content: "<body>";
-  position: absolute;
-  top: 3rem;
-  opacity: .7;
-  left: 3rem;
-  font-family: 'La Belle Aurore', cursive;
-  color: #3b82f6;
-}
+
 
 
 
