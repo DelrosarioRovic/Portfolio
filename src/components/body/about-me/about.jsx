@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import {
   useAnimatedLetters,
   AnimatedLetters,
@@ -49,7 +50,7 @@ function AboutMe() {
           <div data-aos="fade-right">
             <p className="relative">
               I have gained some experience working on projects while I was
-              studying, which you can see <a href="projects" className="text-blue-500 underline">here</a>. Through
+              studying, which you can see <Link to="projects" className="text-blue-500 underline">here</Link>. Through
               these projects, I was able to learn more about web development.
               I'm eager to continue expanding my skills in programming and take
               on new challenges.

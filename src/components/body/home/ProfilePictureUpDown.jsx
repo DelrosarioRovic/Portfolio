@@ -6,7 +6,7 @@ function ProfilePictureUpDown() {
   const [lastClickedId, setLastClickedId] = useState(null);
 
   return (
-    <div className="p-10 relative max-sm:p-2">
+    <div className="p-10 relative max-sm:p-2 max-md:hidden">
       <FloatingAnimation
         wrapperClassName="p-6 rounded-full border border-white border-opacity-50 hover:border-opacity-100 hover:border-blue-500 focus:outline-none focus:border-opacity-100 transition-colors"
         yValues={[0, -5, 0, 5, 0]}
