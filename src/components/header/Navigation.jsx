@@ -12,11 +12,11 @@ function Navigation() {
   }
 
   const navItems = [
-    { href: "home", label: "HOME"},
-    { href: "about", label: "ABOUT" },
-    { href: "skills", label: "SKILLS" },
-    { href: "projects", label: "PROJECTS" },
-    { href: "contact", label: "CONTACT" },
+    { href: "home", label: "Home"},
+    { href: "about", label: "About" },
+    { href: "skills", label: "Skills" },
+    { href: "projects", label: "Projects" },
+    { href: "contact", label: "Contact" },
   ];
   
 

@@ -28,7 +28,7 @@ function AboutMe() {
       <div className="flex flex-col gap-3 md:flex-row justify-between items-center">
         <div className="flex flex-col gap-5 text-white opacity-90 md:w-4/6">
           <div data-aos="fade-right">
-            <p class="relative">
+          <p className="relative">
               Hi, I'm <span className="text-blue-500">Rovic</span>, a <span>Web Developer</span> with a
               passion for creating fully functional websites. Although I'm new
               to this field, I'm excited to learn and grow in order to achieve
@@ -36,7 +36,18 @@ function AboutMe() {
             </p>
           </div>
           <div data-aos="fade-right">
-            <p class="relative">
+            <p className="relative">
+              My long-term goal
+              is to become a full-stack web developer and contribute to the
+              creation of innovative and user-friendly websites. In the short
+              term, I aim to gain more experience by working on challenging
+              projects and collaborating with other developers. I believe that
+              continuous learning and improvement are key to becoming a
+              successful web developer.
+            </p>
+          </div>
+          <div data-aos="fade-right">
+            <p className="relative">
               I have gained some experience working on projects while I was
               studying, which you can see <a href="project" className="text-blue-500 underline">here</a>. Through
               these projects, I was able to learn more about web development.
@@ -45,7 +56,7 @@ function AboutMe() {
             </p>
           </div>
           <div data-aos="fade-right">
-            <p class="relative">
+            <p className="relative">
               When I'm not coding, I enjoy doing Photoshop and playing PC games.
               Thanks for visiting my website. I'm eager to connect with you and
               explore how I can contribute to your organization.
