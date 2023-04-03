@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Website</title>
+ 
   </head>
   <body>
     <h1 style="font-size: 48px; margin-bottom: 24px;">👋 Welcome </h1>
