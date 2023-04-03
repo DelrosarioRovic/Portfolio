@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1 style="font-size: 48px; margin-bottom: 24px;">👋 Welcome </h1>
-    <p style="font-size: 24px;">This website was created using React and is hosted on Vercel.</p>
+    <p style="font-size: 24px;">This website was created using React and hosted on Vercel.</p>
     <h2 style="font-size: 32px; margin-top: 48px;">✨ Features</h2>
     <ul style="font-size: 24px;">
       <li>Fully responsive design 📱💻</li>
