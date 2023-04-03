@@ -7,7 +7,7 @@ function Footer() {
         <a href="https://github.com/DelrosarioRovic">
           <AiFillGithub size={20} color="white" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/rovic-del-rosario-a04542244/">
           <AiFillLinkedin size={20} color="white" />
         </a>
         <a href="https://web.facebook.com/profile.php?id=100009115651018">
