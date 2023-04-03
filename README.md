@@ -23,6 +23,6 @@
     <h2 style="font-size: 32px; margin-top: 48px;">🌐 View the Website</h2>
     <p style="font-size: 24px;">You can view the live website at: <a href="https://rovic.vercel.app/" style="color: #0070f3; text-decoration: none;">https://rovic.vercel.app/</a></p>
     <h2 style="font-size: 32px; margin-top: 48px;">📧 Contact</h2>
-    <p style="font-size: 24px;">If you have any questions or feedback, feel free to contact me using the form on my website.</p>
+  
   </body>
 </html>
