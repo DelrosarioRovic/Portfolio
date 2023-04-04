@@ -1,5 +1,6 @@
 import projectGraphiscore from "../../../image/graphiscoreProject.png";
 import axieproject from"../../../image/axieproject.png";
+import sneakers from "../../../image/sneakers.png";
 const projectArray = [
     {
         projectColor:"before:bg-green-800",
@@ -16,6 +17,14 @@ const projectArray = [
         projectTitle:"Axie-E-Calculator",
         projectDcrp:"The Axie E-Calculator is a tool designed specifically for players of the popular blockchain game, Axie Infinity. The website allows players to easily calculate the amount of energy required to level up their Axies, an important factor in the game that determines the rate at which Axies can become stronger.",
         projectLang:["HTML", "CSS", "Javascript"]
+    },
+    {
+        projectColor:"before:bg-orange-500",
+        projectUrl:"https://e-commerce-practice-project.vercel.app/",
+        projectImg:sneakers,
+        projectTitle:"Sneakers Landing Page",
+        projectDcrp:"This project was built using Tailwind, and React. It also utilizes external libraries such as React Router for navigation.",
+        projectLang:["React", "Tailwind"]
     }
 ];
 
