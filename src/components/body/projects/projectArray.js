@@ -22,8 +22,8 @@ const projectArray = [
         projectColor:"before:bg-orange-500",
         projectUrl:"https://e-commerce-practice-project.vercel.app/",
         projectImg:sneakers,
-        projectTitle:"Sneakers Landing Page",
-        projectDcrp:"This project was built using Tailwind, and React. It also utilizes external libraries such as React Router for navigation.",
+        projectTitle:"Sneakers",
+        projectDcrp:"Welcome to this landing website project, which was built with Tailwind CSS and React. This project has a fully responsive design and utilizes external libraries such as React Router for navigation. ",
         projectLang:["React", "Tailwind"]
     }
 ];
