@@ -1,5 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import { IoLogoDiscord } from "react-icons/io5";
+
 function Footer() {
   return (
     <div className="flex flex-col max-w-7xl items-center justify-center text-white opacity-90 h-full mx-auto py-2 px-8 mt-10">
@@ -12,6 +14,9 @@ function Footer() {
         </a>
         <a href="https://web.facebook.com/profile.php?id=100009115651018">
           <AiFillFacebook size={20} color="white" />
+        </a>
+        <a href="https://discord.com/channels/@me/725912639879774208">
+          <IoLogoDiscord size={20} color="white" />
         </a>
       </div>
       <a href="https://github.com/DelrosarioRovic/Portfolio" className="opacity-70 hover:opacity-100">GitHub Source Code</a>
