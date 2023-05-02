@@ -22,7 +22,7 @@ const projectArray = [
         projectColor:"before:bg-orange-500",
         projectUrl:"https://e-commerce-practice-project.vercel.app/",
         projectImg:sneakers,
-        projectTitle:"Sneakers Landing Page",
+        projectTitle:"Sneakers",
         projectDcrp:"Welcome to this landing website project, which was built with Tailwind CSS and React. This project has a fully responsive design and utilizes external libraries such as React Router for navigation. ",
         projectLang:["React", "Tailwind"]
     }
