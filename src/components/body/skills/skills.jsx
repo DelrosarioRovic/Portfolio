@@ -13,6 +13,7 @@ import ReactP from "../../../image/react.png";
 import Node from "../../../image/node.png";
 import Mongo from "../../../image/mongo.png";
 import Github from "../../../image/github.png";
+import Typescript from "../../../image/typescript.png";
 
 function Skills() {
   const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } =
@@ -77,6 +78,10 @@ function Skills() {
           <div data-aos="zoom-in" className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500">
             <img src={Github} alt="css" className="w-20 mx-auto" />
             <p>GITHUB</p>
+          </div>
+          <div data-aos="zoom-in" className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500">
+            <img src={Typescript} alt="css" className="w-20 mx-auto" />
+            <p>Typescript</p>
           </div>
         </div>
       </div>

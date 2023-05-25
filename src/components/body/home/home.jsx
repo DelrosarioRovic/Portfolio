@@ -68,7 +68,7 @@ function Home() {
           </h1>
           <TypeAnimation />
           <a
-            href=""
+            href="https://docs.google.com/document/d/1Sz9DjgREXApXUA_ml1XVsS7iHEUP5vK9/edit"
             className="btn-home border border-blue-500 px-3 py-2 rounded-sm text-blue-500 opacity-90
             hover:bg-blue-500 hover:text-white duration-300 active:scale-90"
           >
