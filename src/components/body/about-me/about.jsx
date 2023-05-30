@@ -58,7 +58,6 @@ function AboutMe() {
           </div>
           <div data-aos="fade-right">
             <p className="relative">
-              When I'm not coding, I enjoy doing Photoshop and playing PC games.
               Thanks for visiting my website. I'm eager to connect with you and
               explore how I can contribute to your organization.
             </p>
