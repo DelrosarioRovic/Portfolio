@@ -1,6 +1,7 @@
 import projectGraphiscore from "../../../image/graphiscoreProject.png";
 import axieproject from"../../../image/axieproject.png";
 import sneakers from "../../../image/sneakers.png";
+import blogify from "../../../image/blogify.png";
 const projectArray = [
     {
         projectColor:"before:bg-green-800",
@@ -25,7 +26,16 @@ const projectArray = [
         projectTitle:"Sneakers",
         projectDcrp:"Welcome to this landing website project, which was built with Tailwind CSS and React. This project has a fully responsive design and utilizes external libraries such as React Router for navigation. ",
         projectLang:["React", "Tailwind"]
-    }
+    },
+    {
+        projectColor:"before:bg-white",
+        projectUrl:"https://blogify-phi.vercel.app/",
+        projectImg:blogify,
+        projectTitle:"Blogify",
+        projectDcrp:"Blogify is a full-stack social web app built using the MERN stack and TypeScript.",
+        projectLang:["React", "Tailwind", "TypeScript", "Node.Js", "Express", "MongoDB", "JWT" ]
+    },
+
 ];
 
 export default projectArray;
