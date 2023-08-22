@@ -28,7 +28,7 @@ const projectArray = [
         projectLang:["React", "Tailwind"]
     },
     {
-        projectColor:"before:bg-white",
+        projectColor:"before:bg-blue-500",
         projectUrl:"https://blogify-phi.vercel.app/",
         projectImg:blogify,
         projectTitle:"Blogify",
