@@ -20,6 +20,24 @@ import Jest from "../../../image/jest.svg";
 import Redux from "../../../image/redux.png";
 import Next from "../../../image/next.svg";
 
+const technologies = [
+  { image: Html, label: "HTML" },
+  { image: Css, label: "CSS" },
+  { image: Bt, label: "Bootstrap" },
+  { image: Js, label: "JavaScript" },
+  { image: Tailwind, label: "Tailwind" },
+  { image: ReactP, label: "React" },
+  { image: Node, label: "Node.js" },
+  { image: Mongo, label: "MongoDB" },
+  { image: Github, label: "GitHub" },
+  { image: Typescript, label: "TypeScript" },
+  { image: Next, label: "Next.js" },
+  { image: Redux, label: "Redux" },
+  { image: Jest, label: "Jest" },
+  { image: Remix, label: "Remix" },
+  { image: Shopify, label: "Shopify" },
+];
+
 function Skills() {
   const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } =
     useAnimatedLetters();
@@ -45,114 +63,19 @@ function Skills() {
       </div>
       <div className="flex flex-col gap-10">
         <h3 data-aos="fade-right" className="text-white opacity-90">
-          //This is the TECNOLOGY I've work with 🧑‍💻
+          //This is the TECHNOLOGY I've worked with 🧑‍💻
         </h3>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 text-white text-opacity-90">
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Html} alt="html" className="w-20 mx-auto" />
-            <p>HTML</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Css} alt="css" className="w-20 mx-auto" />
-            <p>CSS</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Bt} alt="css" className="w-20 mx-auto" />
-            <p>BOOTSTRAP</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Js} alt="css" className="w-20 mx-auto" />
-            <p>JAVASCRIPT</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Tailwind} alt="html" className="w-20 mx-auto" />
-            <p>TAILWIND</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={ReactP} alt="css" className="w-20 mx-auto" />
-            <p>REACT</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Node} alt="css" className="w-20 mx-auto" />
-            <p>NODE JS</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Mongo} alt="html" className="w-20 mx-auto" />
-            <p>MONGO DB</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Github} alt="css" className="w-20 mx-auto" />
-            <p>GITHUB</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Typescript} alt="css" className="w-20 mx-auto" />
-            <p>Typescript</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Next} alt="css" className="w-20 mx-auto" />
-            <p>Next.Js</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Redux} alt="css" className="w-20 mx-auto" />
-            <p>Redux</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Jest} alt="css" className="w-20 mx-auto" />
-            <p>Jest</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Remix} alt="css" className="w-20 mx-auto" />
-            <p>Remix</p>
-          </div>
-          <div
-            data-aos="zoom-in"
-            className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
-          >
-            <img src={Shopify} alt="css" className="w-20 mx-auto" />
-            <p>Shopify</p>
-          </div>
+          {technologies.map((tech, index) => (
+            <div
+              key={index}
+              data-aos="zoom-in"
+              className="shadow-md shadow-[#06092e41] hover:!scale-110 duration-500"
+            >
+              <img src={tech.image} alt={tech.label} className="w-20 mx-auto" />
+              <p>{tech.label}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
