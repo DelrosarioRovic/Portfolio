@@ -4,7 +4,7 @@
    //
   </head>
   <body>
-    <img src="./src/image/previewPortFolio.jpg" alt="Preview of Portfolio Design">
+    <img src="./src/image/portfolioImage.png" alt="Preview of Portfolio Design">
     <h1 style="font-size: 48px; margin-bottom: 24px;">👋 Welcome </h1>
     <p style="font-size: 24px;">This website was created using React and hosted on Vercel.</p>
     <h2 style="font-size: 32px; margin-top: 48px;">✨ Features</h2>
