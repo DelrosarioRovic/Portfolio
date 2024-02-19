@@ -19,6 +19,7 @@ import Remix from "../../../image/remix.png";
 import Jest from "../../../image/jest.svg";
 import Redux from "../../../image/redux.png";
 import Next from "../../../image/next.svg";
+import ReactNative from "../../../image/react-native.png";
 
 const technologies = [
   { image: Html, label: "HTML" },
@@ -36,6 +37,7 @@ const technologies = [
   { image: Jest, label: "Jest" },
   { image: Remix, label: "Remix" },
   { image: Shopify, label: "Shopify" },
+  { image: ReactNative, label: "React-native" },
 ];
 
 function Skills() {
