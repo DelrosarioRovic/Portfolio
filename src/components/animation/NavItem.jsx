@@ -8,7 +8,7 @@ const NavItem = ({ label, href, onClick, activeScroll }) => {
       <Link
         to={href}
         activeClass={activeScroll}
-        className='file:bg-opacity-90 hover:text-blue-500 font-medium tracking-wide text-sm relative
+        className='cursor-pointer file:bg-opacity-90 hover:text-blue-500 font-medium tracking-wide text-sm relative
         after:absolute after:h-[2px]
         after:w-0 after:bottom-0
         after:duration-500 after:right-0
