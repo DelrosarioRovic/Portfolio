@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-scroll";
+import rovicImg from "../../../image/rovic.png";
 import {
   useAnimatedLetters,
   AnimatedLetters,
@@ -70,7 +71,7 @@ function AboutMe() {
         >
           <img
             className="brightness-110 contrast-125 object-cover object-center w-full h-full"
-            src="https://media.discordapp.net/attachments/1045233952148947046/1084737602701250590/IMG_20230313_151939.png?width=436&height=413"
+            src={rovicImg}
             alt="me"
           />
         </div>
