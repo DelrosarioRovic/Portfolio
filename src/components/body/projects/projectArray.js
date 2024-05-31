@@ -3,6 +3,8 @@ import axieproject from "../../../image/axieproject.png";
 import sneakers from "../../../image/sneakers.png";
 import blogify from "../../../image/blogify.png";
 import grocery from "../../../image/grocery.png";
+import lawportfolio from "../../../image/law-portfolio.jpg"
+
 const projectArray = [
   {
     projectColor: "before:bg-green-800",
@@ -64,6 +66,14 @@ const projectArray = [
     projectDcrp:
       "Discover simplicity in grocery shopping with our streamlined Grocery App. Effortlessly create lists and receive personalized recommendations. Experience convenience at your fingertips. Download now for an enhanced shopping journey.",
     projectLang: ["React-native", "Expo", "Node.Js"],
+  },
+  {
+    projectColor: "before:bg-gray-200",
+    projectUrl: "",
+    projectImg: lawportfolio,
+    projectTitle: "Law portfolio",
+    projectDcrp: "A simple law portfolio website",
+    projectLang: ["React", "TailwindCSS", "NextJS"],
   },
 ];
 
