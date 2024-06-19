@@ -7,6 +7,7 @@ import Skills from "./body/skills/skills";
 import Projects from "./body/projects/projects";
 import Contact from "./body/contact/contact";
 import ParticlesAnimation from "./animation/ParticlesBG";
+import Experience from "./body/experience/experience";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="html-Tags max-w-7xl mx-auto relative">
         <Home />
         <AboutMe />
+        <Experience />
         <Skills />
         <Projects />
         <Contact />
