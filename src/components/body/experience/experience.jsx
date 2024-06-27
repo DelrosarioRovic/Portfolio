@@ -8,7 +8,7 @@ const Experience = () => {
    const workExp = [{
     icon: digeco,
     companyName: "Digeco",
-    startDate: "08-15-2024",
+    startDate: "08-15-2023",
     endDate: "present",
     position: "Web developer / Frontend dev",
     description: "I began my career at this company last year as a front-end web developer. Digeco is a startup company where we develop a variety of products, including outsourced and in-house applications, web apps, mobile apps, websites, and more. During my tenure here, I've expanded my skills significantly. I've gained proficiency in WordPress and enhanced my abilities in React.js, along with several other tools. Additionally, I've learned how to integrate and fully utilize AI for advanced user experiences. Overall, my time here has allowed me to improve both my development skills and my ability to collaborate effectively within a team."
