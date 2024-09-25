@@ -26,7 +26,7 @@ function Home() {
     "e",
     "r",
   ];
-  
+
   return (
     <div id="home" className="relative mt-[14vh] max-w-7xl h-full mx-auto flex justify-between max-md:justify-center gap-3 items-center my-5 py-20 max-md:pb-0 px-8 max-md:gap-8 max-md:flex-wrap">
         <div className="p-6 max-sm:p-3 flex flex-col items-start gap-4">
@@ -68,7 +68,7 @@ function Home() {
           </h1>
           <TypeAnimation />
           <a
-            href="https://drive.google.com/file/d/1gPfUEOq5nFQ3ov4AWcocnN0hpwauGLIg/view?usp=sharing"
+            href="https://drive.google.com/file/d/19-Kb4vMCOZLncugVCh7Ow4dr-2ejRQ0F/view?usp=sharing"
             className="btn-home border border-blue-500 px-3 py-2 rounded-sm text-blue-500 opacity-90
             hover:bg-blue-500 hover:text-white duration-300 active:scale-90"
           >
