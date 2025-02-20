@@ -46,7 +46,9 @@ function AboutMe() {
               projects and collaborating with other developers. I believe that
               continuous learning and improvement are key to becoming a
               successful web developer.
-            </p>
+            </p>1
+            wqe
+            we
           </div>
           <div data-aos="fade-right">
             <p className="relative">

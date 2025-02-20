@@ -68,7 +68,7 @@ function Home() {
           </h1>
           <TypeAnimation />
           <a
-            href="https://drive.google.com/file/d/19-Kb4vMCOZLncugVCh7Ow4dr-2ejRQ0F/view?usp=sharing"
+            href={import.meta.env.VITE_REACT_RESUME}
             className="btn-home border border-blue-500 px-3 py-2 rounded-sm text-blue-500 opacity-90
             hover:bg-blue-500 hover:text-white duration-300 active:scale-90"
           >
