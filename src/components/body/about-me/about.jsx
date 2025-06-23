@@ -31,38 +31,23 @@ function AboutMe() {
         <div className="flex flex-col gap-5 text-white opacity-90 md:w-4/6">
           <div data-aos="fade-right">
           <p className="relative">
-              Hi, I'm <span className="text-blue-500">Rovic</span>, a <span>Web Developer</span> with a
-              passion for creating fully functional websites. Although I'm new
-              to this field, I'm excited to learn and grow in order to achieve
-              my goals.
+              Hi, I'm <span className="text-blue-500">Rovic</span>, a <span>Passionate Web Developer </span> 
+              with 2 years of professional experience in front-end development and growing expertise in back-end and mobile app development.
             </p>
           </div>
           <div data-aos="fade-right">
             <p className="relative">
-              My long-term goal
-              is to become a full-stack web developer and contribute to the
-              creation of innovative and user-friendly websites. In the short
-              term, I aim to gain more experience by working on challenging
-              projects and collaborating with other developers. I believe that
-              continuous learning and improvement are key to becoming a
-              successful web developer.
-            </p>1
-            wqe
-            we
-          </div>
-          <div data-aos="fade-right">
-            <p className="relative">
-              I have gained some experience working on projects while I was
-              studying, which you can see <Link to="projects" className="text-blue-500 underline">here</Link>. Through
-              these projects, I was able to learn more about web development.
-              I'm eager to continue expanding my skills in programming and take
-              on new challenges.
+              Over the past two years, I’ve worked full-time as a front-end developer while also gaining strong back-end skills. I’ve contributed to various full-stack projects and recently served as the main developer for a mobile application at my current company.
             </p>
           </div>
           <div data-aos="fade-right">
             <p className="relative">
-              Thanks for visiting my website. I'm eager to connect with you and
-              explore how I can contribute to your organization.
+              I'm currently expanding my knowledge in mobile development, with a focus on React Native and Flutter. I'm excited by the challenge of building seamless, cross-platform experiences that users love.
+            </p>
+          </div>
+          <div data-aos="fade-right">
+            <p className="relative">
+              Outside of work, I take on freelance projects as a front-end and full-stack developer to continue sharpening my skills and gain broader experience in real-world applications.
             </p>
           </div>
         </div>
