@@ -29,7 +29,7 @@ function ProjectAnimate({
         before:w-full before:h-4/5 before:rounded-md before:m-auto before:-z-10 before:duration-300
         ${ifHoverProject && "before:scale-90"} `}
         >
-          <img src={projectImg} alt="Graphiscore" />
+          <img className="rounded-md" src={projectImg} alt="Graphiscore" />
         </div>
         <div className="flex flex-col">
           <h2 className="text-2xl">{projectTitle}</h2>

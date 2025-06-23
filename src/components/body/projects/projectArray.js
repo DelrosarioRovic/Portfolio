@@ -3,7 +3,8 @@ import axieproject from "../../../image/axieproject.png";
 import sneakers from "../../../image/sneakers.png";
 import blogify from "../../../image/blogify.png";
 import grocery from "../../../image/grocery.png";
-import lawportfolio from "../../../image/law-portfolio.jpg"
+import lawportfolio from "../../../image/law-portfolio.jpg";
+import rairaiken from "../../../image/rairaiken.png";
 
 const projectArray = [
   {
@@ -72,8 +73,28 @@ const projectArray = [
     projectUrl: "",
     projectImg: lawportfolio,
     projectTitle: "Law portfolio",
-    projectDcrp: "A simple law portfolio website",
+    projectDcrp: "I developed a professional law portfolio website for a client during a freelance project. The goal was to create a clean, responsive site that highlights their legal services, experience, and client testimonials.",
     projectLang: ["React", "TailwindCSS", "NextJS"],
+  },
+  {
+    projectColor: "before:bg-red-700",
+    projectUrl: "",
+    projectImg: rairaiken,
+    projectTitle: "Rairaiken Ordering System",
+    projectDcrp:
+      "A restaurant ordering system concept where customers use a tablet at each table to place orders, which are sent directly to the kitchen and cashier for faster service.",
+    projectLang: [
+      "React-native",
+      "Expo",
+      "CSS",
+      "Socket IO",
+      "Express",
+      "NodeJs",
+      "MongoDb",
+      "PostgreSQL",
+      "Redis",
+      "Linux"
+    ],
   },
 ];
 

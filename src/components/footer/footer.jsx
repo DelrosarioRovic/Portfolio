@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { IoLogoDiscord } from "react-icons/io5";
+import { FaSquareUpwork } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -17,6 +18,9 @@ function Footer() {
         </a>
         <a href="https://discord.com/channels/@me/725912639879774208">
           <IoLogoDiscord size={20} color="white" />
+        </a>
+        <a href="https://www.upwork.com/freelancers/~01365352d78355d485?viewMode=1">
+          <FaSquareUpwork size={20} color="white" />
         </a>
       </div>
       <a href="https://github.com/DelrosarioRovic/Portfolio" className="opacity-70 hover:opacity-100">GitHub Source Code</a>
