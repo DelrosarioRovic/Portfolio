@@ -71,6 +71,7 @@ function Home() {
           </h1>
           <TypeAnimation />
           <a
+            target="_blank"
             href={resumeUri}
             className="btn-home border border-blue-500 px-3 py-2 rounded-sm text-blue-500 opacity-90
             hover:bg-blue-500 hover:text-white duration-300 active:scale-90"
