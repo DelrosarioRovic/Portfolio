@@ -7,6 +7,7 @@ import rairaiken from "../../../image/rairaiken.png";
 import outsourze from "../../../image/outsourze.png";
 import leadsourze from "../../../image/leadsourze.png";
 import talentsourze from "../../../image/talentsourze.png";
+import crewcapital from "../../../image/crewcapital.png";
 
 const projectArray = [
   {
@@ -130,6 +131,23 @@ const projectArray = [
   projectTitle: "Talentsourze",
   projectDcrp:
     "A corporate website created for Talent Sourze, a sister company of outsourze, designed to present its recruitment services, company information, and client solutions. The system was deployed on a VPS server for reliable production hosting and uses PostgreSQL as its primary database, providing secure data management, scalability, and stable performance in a live environment.",
+  projectLang: [
+    "React",
+    "Next",
+    "CSS",
+    "TailwindCSS",
+    "Hostinger",
+    "Vercel",
+    "Figma"
+  ],
+},
+{
+  projectColor: "before:bg-red-700",
+  projectUrl: "",
+  projectImg: crewcapital,
+  projectTitle: "Crew Capital",
+  projectDcrp:
+    "Crew Capital helps businesses prepare for the future by delivering strategic services and solutions that support growth, efficiency, and long-term success across industries.",
   projectLang: [
     "React",
     "Next",
