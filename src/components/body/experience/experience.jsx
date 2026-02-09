@@ -1,17 +1,34 @@
 import React from 'react'
 import digeco from "../../../image/digeco.jpg";
+import upwork from "../../../image/upwork-icon.png";
+import outsourze from "../../../image/Outsourze Logo Mark.svg";
 import { AnimatedLetters, useAnimatedLetters } from '../../animation/AnimatedLetter'
 
 const Experience = () => {
    const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } = useAnimatedLetters();
    const work = ["W", "o", "r", "k"];
+
    const workExp = [{
     icon: digeco,
-    companyName: "Digeco",
+    companyName: "DIGECO",
     startDate: "08-15-2023",
+    endDate: "07-15-2025",
+    position: "Web developer / Frontend developer",
+    description: "Worked as a Junior Frontend Developer in an Agile environment, contributing to the development of responsive web applications and company websites. Built reusable UI components using React.js and modern frontend technologies to ensure scalability and maintainability. Collaborated closely with UI/UX designers and backend developers to deliver visually appealing and functional interfaces. Integrated REST APIs and Socket.IO to enable real-time data communication and seamless user experiences. Gained hands-on experience with clean architecture, performance optimization, and professional team workflows."
+   }, {
+    icon: upwork,
+    companyName: "FREELANCE (Upwork)",
+    startDate: "01-15-2025",
     endDate: "present",
-    position: "Web developer / Frontend dev",
-    description: "I began my career at this company last year as a front-end web developer. Digeco is a startup company where we develop a variety of products, including outsourced and in-house applications, web apps, mobile apps, websites, and more. During my tenure here, I've expanded my skills significantly. I've gained proficiency in WordPress and enhanced my abilities in React.js, along with several other tools. Additionally, I've learned how to integrate and fully utilize AI for advanced user experiences. Overall, my time here has allowed me to improve both my development skills and my ability to collaborate effectively within a team."
+    position: "Frontend developer",
+    description: "Worked as a freelance Frontend and Fullstack Developer, delivering responsive and user-friendly web applications for various clients through Upwork and independent projects. Developed modern interfaces using HTML, CSS, JavaScript, React.js, and related tools. Handled fullstack development tasks using Node.js, Express, and SQL databases such as MySQL and PostgreSQL. Focused on performance, accessibility, scalability, and clean, maintainable code while meeting client requirements and deadlines."
+   }, {
+    icon: outsourze,
+    companyName: "OUTSOURZE",
+    startDate: "07-15-2025",
+    endDate: "present",
+    position: "Fullstack / Frontend developer",
+    description: "Developed and deployed responsive landing pages and websites using Next.js and Tailwind CSS, ensuring high performance and SEO optimization. Fully built multiple landing pages from scratch and optimized them using Google Lighthouse standards. Configured and managed VPS servers on Hostinger for website deployment and maintenance. Set up and organized GitHub repositories for version control and collaborative development. Worked closely with designers and project managers to implement UI/UX designs accurately and deliver projects efficiently."
    }]
 
   return (
@@ -34,7 +51,7 @@ const Experience = () => {
                 <div key={index} className='flex flex-col shadow-md shadow-[#06092e41] p-5 rounded-md'>
                     <div className='flex justify-between items-center text-white'>
                         <div className='flex items-center gap-2 my-3'>
-                            <img src={digeco} alt="" width={40} className='rounded-full' />
+                            <img src={experience.icon} alt="" width={40} className='rounded-full' />
                             <p className='text-xl'>{experience.companyName}</p>
                         </div>
                         <p className='text-sm opacity-50'>{experience.startDate} - {experience.endDate}</p>
